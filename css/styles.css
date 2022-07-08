@@ -591,6 +591,61 @@ ul {
   align-self: flex-start;
 }
 
+.subscription {
+  margin-left: 93px;
+  padding-top: 12px;
+  align-self: flex-start;
+}
+
+.subscription-field {
+  position: relative;
+  margin-right: 12px;
+}
+
+.subscription-field > input {
+  padding-left: 70px;
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  background-color: inherit;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+}
+
+.subscription-label {
+  position: absolute;
+  top: 15px;
+  left: 16px;
+  display: inline-block;
+
+  color: var(--white-translucent);
+  font-family: inherit;
+  font-size: var(--primary-font-size);
+  line-height: 1.25;
+}
+
+.subscription-button {
+  display: inline-flex;
+  padding: 10px 29px;
+  padding-right: 28px;
+
+  cursor: pointer;
+  border: 0 solid var(--blue-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  background-color: var(--blue-color);
+  color: var(--primary-bg-color);
+  font-size: var(--primary-font-size);
+  font-weight: var(--bold);
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+}
+
+.subscription-button > .icon {
+  margin-left: 10px;
+}
+
 /* Modal window */
 
 .backdrop {
