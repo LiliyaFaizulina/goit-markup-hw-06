@@ -752,14 +752,16 @@ input[type='checkbox'] {
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+
+  transition: border-color var(--transition-duration) var(--timing-function);
+}
+
+.field-input {
+  outline-color: transparent;
 }
 
 .field-input:focus {
-  border: 1px solid var(--blue-color);
-}
-
-.field-input:focus-visible {
-  outline: 1px solid var(--blue-color);
+  border-color: var(--blue-color);
 }
 
 .field > .icon {
