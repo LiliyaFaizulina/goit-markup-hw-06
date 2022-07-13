@@ -599,7 +599,6 @@ input[type='checkbox'] {
 }
 
 .subscription-field {
-  position: relative;
   margin-right: 12px;
 
   color: var(--white-translucent);
@@ -609,7 +608,7 @@ input[type='checkbox'] {
 }
 
 .subscription-field > input {
-  padding-left: 70px;
+  padding-left: 16px;
   width: 358px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -619,11 +618,9 @@ input[type='checkbox'] {
   color: inherit;
 }
 
-.subscription-label {
-  position: absolute;
-  top: 15px;
-  left: 16px;
-  display: inline-block;
+.subscription-input::placeholder {
+  line-height: 1.25;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .subscription-button {
@@ -756,12 +753,9 @@ input[type='checkbox'] {
   transition: border-color var(--transition-duration) var(--timing-function);
 }
 
-.field-input {
-  outline-color: transparent;
-}
-
 .field-input:focus {
   border-color: var(--blue-color);
+  outline: none;
 }
 
 .field > .icon {
