@@ -658,7 +658,8 @@ input[type='checkbox'] {
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
 
-  transition: opacity var(--transition-duration) var(--timing-function);
+  transition: opacity var(--transition-duration) var(--timing-function),
+    visibility var(--transition-duration) var(--timing-function);
 }
 
 .backdrop.is-hidden {
