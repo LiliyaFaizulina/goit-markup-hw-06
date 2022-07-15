@@ -45,14 +45,11 @@ img {
   height: auto;
 }
 
-.list {
-  list-style: none;
-}
-
 ul {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
+  list-style: none;
 }
 
 .link {
