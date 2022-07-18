@@ -469,12 +469,13 @@ input[type='checkbox'] {
   margin-bottom: 30px;
 }
 
-.projects-item {
+.projects-link {
+  display: block;
   transition: box-shadow var(--transition-duration) var(--timing-function);
 }
 
-.projects-item:hover,
-.projects-item:focus {
+.projects-link:hover,
+.projects-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -506,8 +507,8 @@ input[type='checkbox'] {
     opacity var(--transition-duration) var(--timing-function);
 }
 
-.projects-item:hover .overlay,
-.projects-item:focus .overlay {
+.projects-link:hover .overlay,
+.projects-link:focus .overlay {
   transform: translateY(0);
   opacity: 1;
 }
